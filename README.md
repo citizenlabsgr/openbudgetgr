@@ -23,7 +23,7 @@ We are just kicking this project so check in here often, there will be many more
 
 
 
-- OpenOakland's Readme for project
+- OpenOakland's [Readme](https://github.com/friendlycode/openbudgetgr/blob/master/Oakland_README.md) with instructions for project.
 
 
 

@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/friendlycode/openbudgetgr.png?label=ready&title=Ready)](https://waffle.io/friendlycode/openbudgetgr)
 
 
 # Open Budget: Grand Rapids, MI

@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/citizenlabsgr/openbudgetgr.png?label=ready&title=Ready)](https://waffle.io/citizenlabsgr/openbudgetgr?utm_source=badge)
 [![Stories in Ready](https://badge.waffle.io/friendlycode/openbudgetgr.png?label=ready&title=Ready)](https://waffle.io/friendlycode/openbudgetgr)
 
 

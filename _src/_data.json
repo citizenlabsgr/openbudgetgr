@@ -1,0 +1,51 @@
+{
+  "globals": {
+    "title": "Open Budget: Grand Rapids",
+    "uri": "http://openbudgetogr.org"
+  },
+
+  "index": {
+    "title": "Open Budget: Grand Rapids",
+    "slug": "home"
+  },
+
+  "what-we-do": {
+    "title": "What and How - Open Budget: Grand Rapids"
+  },
+
+  "who-we-are": {
+    "title": "Who We Are - Open Budget: Grand Rapids"
+  },
+
+  "news": {
+    "title": "News - Open Budget: Grand Rapids"
+  },
+
+  "contact": {
+    "title": "Contact Us - Open Budget: Grand Rapids"
+  },
+
+  "discuss": {
+    "title": "Discuss - Open Budget: Grand Rapids"
+  },
+
+  "feedback": {
+    "title": "Feedback - Open Budget: Grand Rapids"
+  },
+
+  "grandrapids-budget-101": {
+    "title": "Budget 101 - Open Budget: Grand Rapids"
+  },
+
+  "tools-projects": {
+    "title": "Tools & Projects - Open Budget: Grand Rapids"
+  },
+
+  "budget-visuals": {
+    "title": "Budget Visualizations - Open Budget: Grand Rapids"
+  },
+
+  "compare": {
+    "title": "Compare Budgets - Open Budget: Grand Rapids"
+  }
+}

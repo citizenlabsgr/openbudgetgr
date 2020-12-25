@@ -39,7 +39,7 @@ Harp was partially created to be a development tool for static sites, and includ
 
 The [`/src`](./_src) directory is the working folder of this project, and contains all necessary code that is compiled in the static site.
 
-To start development of this project, make sure that you have all of the [prerequisites](#prerequisites), and run the the following commands
+To start developing, make sure you have all [prerequisites](#prerequisites) installed, and run the the following commands
 
 ```sh
 # Go to the '_src' folder of the OpenBudget GR project
@@ -52,7 +52,11 @@ yarn install
 harp server
 ```
 
+The Harp server should tell you where to point your browser. Once you do that you should see the Open Budget Grand Rapids project that you can activey develop on.
+
 ## Documentation
+
+Do not be afraid of updating the documentation if there is anyting that should be changed. Also please add to this documentation when a new feature is implemented.
 
 ### Creating & Editing Pages
 

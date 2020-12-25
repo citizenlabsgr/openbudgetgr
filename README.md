@@ -3,14 +3,28 @@
 
 # Open Budget Grand Rapids
 
+Open Budget Grand Rapids intends to promote a deeper understanding of the City of Grand Rapids Budget. We believe that this project will allow citizens, officials, and other stakeholders to engage in more informed dialogue about how the City of Grand Rapids currently works and how it should in the future.
+
+## Getting Started
+
+### Prerequisites
+
+This project was developed with Harpjs
+
 **Slack:** #project-openbudgetgr
 
 **Project Description:**
-We are developing a way to better understand the budget process for the City of Grand Rapids. This is the follow-up to the initial 2016 release of [openbudgetgr.org](http://openbudgetgr.org). The site is now current with FY2018 data.
 
-Our Open Budget project intends to promotes a deeper understanding of the city budget, so that citizens, officials, and other stakeholders can engage in more informed dialogue about how the City of Grand Rapids currently works and how it should in the future.
 
-The Open Budget website is built using Node.js. During development the project is run locally on a computer. After acquiring and formatting the budget data properly you publish the website using Harp to compile the static files necessary for a Github posted website.
+```
+# To start the Harp server, cd to the _src directory
+cd [repo-location]/_src
+harp server
+```
+
+This project is coded with:
+
+
 
 **Project Guide:**  [@allen](https://citizenlabs.slack.com/messages/@allen/)
 
@@ -25,20 +39,39 @@ City of Grand Rapids, [MI Data Portal](https://www.grandrapidsmi.gov/GRData)
 - [FY2017 Data](https://data.world/citizenlabs/city-of-grand-rapids-fy-2017-budget)
 - [FY2018 Data](https://data.world/citizenlabs/city-of-grand-rapids-fy-2018-budget)
 
-### Getting started:
-* Browse our help wanted issues. See if there is anything that interests you.
-* Core maintainers and project guides are responsible for reviewing and merging all pull requests. In order to prevent frustrations with your first PR we recommend you reach out to our core maintainers who can help you through your first PR.
-* Updates to documentation or readme are greatly appreciated and make for a great first PR. They do not need to be discussed in advance and will be merged as soon as possible.
+## Contributing
 
+Before making any changes please consider reading the [Contribution Guide](./CONTRIBUTING.md). This document has information regarding parts of this project that can be maintained.
 
-### Skills
+The easiest ways to make a pull request are by making updates to the README or by browsing the issues.
+
+### Maintainers
+
+Project maintainers have write access to this project are responsible for reviewing and merging all pull requests.
+
+The current maintainers of this project are:
+* [@allen](https://citizenlabs.slack.com/messages/@allen/)
+* Jace B
+
+It is recommended to reach out to them if you need any help getting started with this project. They can be found on the [CitizenLabs Slack](#slack)
+
+Updates to documentation or the [README](/README.md) make for a great first pull request.
+
+## Built With
+
+- [Node](https://nodejs.org/en/)
+- [Harp](http://harpjs.com/)
+- [Jade](https://jade-lang.com/)
+- [Sass](https://sass-lang.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [React](https://reactjs.org/)
+- [Yarn](https://yarnpkg.com/en/)
+- [Chartjs](https://www.chartjs.org/)
+
+## Skills
 - Documentation
 - Data collection
 - Data visualization
 - Civic Engagement
 - Design
 - Javascript
-- Jade
-- Sass
-- Bootstrap
-- React

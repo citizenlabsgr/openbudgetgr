@@ -7,43 +7,48 @@ Open Budget Grand Rapids intends to promote a deeper understanding of the City o
 
 ## Getting Started
 
+Use the following documentation to help you get started developing with this project.
+
 ### Prerequisites
 
-This project was developed with Harpjs
+These next items listed are necessary to develop this project on your local machine.
 
-**Slack:** #project-openbudgetgr
+#### Yarn
 
-**Project Description:**
+This project uses Yarn package manager to install dependencies. Go to the [Yarn website](https://yarnpkg.com/) in order to learn how to install it.
 
+#### Harp
 
+This site is built with the [Harp static site generator](http://harpjs.com/). Harp can be used to develop on the site locally with minimal setup.
+
+To install Harp globally, make sure you have `yarn` package manager installed, and then use the following commands
+
+```sh
+yarn global add harp
 ```
-# To start the Harp server, cd to the _src directory
+
+### Development
+
+The [`/src`](./_src) directory is the working folder of this project, and contains all necessary code that is compiled in the static site.
+
+To start development of this project, make sure that you have all of the [prerequisites](#prerequisites), and run the the following commands
+
+```sh
+# Go to the '_src' folder of the OpenBudget GR project
 cd [repo-location]/_src
+
+# Install required project dependencies
+yarn install
+
+# Run harp development server
 harp server
 ```
 
-This project is coded with:
-
-
-
-**Project Guide:**  [@allen](https://citizenlabs.slack.com/messages/@allen/)
-
-**Maintainers (people with write access):**
-* [@allen](https://citizenlabs.slack.com/messages/@allen/)
-* Jace B
-
-**Data:**
-
-City of Grand Rapids, [MI Data Portal](https://www.grandrapidsmi.gov/GRData)
-
-- [FY2017 Data](https://data.world/citizenlabs/city-of-grand-rapids-fy-2017-budget)
-- [FY2018 Data](https://data.world/citizenlabs/city-of-grand-rapids-fy-2018-budget)
-
 ## Contributing
 
-Before making any changes please consider reading the [Contribution Guide](./CONTRIBUTING.md). This document has information regarding parts of this project that can be maintained.
+Before making any changes please consider reading the [Contribution Guide](./CONTRIBUTING.md). This document sets a guideline for how to best contribute to parts of the OpenBudget GR project.
 
-The easiest ways to make a pull request are by making updates to the README or by browsing the issues.
+The easiest way you can make a pull request is by making changes to the documentation or README files. Otherwise you should check out the [issues](https://github.com/citizenlabsgr/openbudgetgr/issues) and see if there are any that you can work on.
 
 ### Maintainers
 
@@ -56,6 +61,17 @@ The current maintainers of this project are:
 It is recommended to reach out to them if you need any help getting started with this project. They can be found on the [CitizenLabs Slack](#slack)
 
 Updates to documentation or the [README](/README.md) make for a great first pull request.
+
+### Slack
+
+You can talk with Citizen Labs and the maintainers of this project through [Slack](https://join.slack.com/t/citizenlabs/shared_invite/enQtNTQ0Mjk1NjQ3NjcxLTI0YTRhOWYzZGY4MTBjMWU0NzU0MGY1OTU3Y2YwYTkxZGI2ZTVhMjQwYWEwMWI4NGUwYjI3OTE3Y2NlNTdhNzU). The specific channel name for this project is `#project-openbudgetgr`
+
+## Data
+
+City of Grand Rapids, [MI Data Portal](https://www.grandrapidsmi.gov/GRData)
+
+- [FY2017 Data](https://data.world/citizenlabs/city-of-grand-rapids-fy-2017-budget)
+- [FY2018 Data](https://data.world/citizenlabs/city-of-grand-rapids-fy-2018-budget)
 
 ## Built With
 
